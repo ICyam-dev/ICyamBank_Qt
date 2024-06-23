@@ -10,13 +10,18 @@ CONFIG += c++17
 
 SOURCES += \
     src/main.cpp \
-    src/mainwindow.cpp
+    src/winmain.cpp
 
 HEADERS += \
-    headers/mainwindow.h
+    headers/winmain.h
 
 FORMS += \
-    ui/winMain.ui
+    ui/winmain.ui
+
+TRANSLATIONS += \
+    translate/ICyamBank_fr_FR.ts
+CONFIG += lrelease
+CONFIG += embed_translations
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
