@@ -19,5 +19,6 @@ public:
 
 private:
     Ui::WinMain *ui;
+
 };
 #endif // WINMAIN_H
