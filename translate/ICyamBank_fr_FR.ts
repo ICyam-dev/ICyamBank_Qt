@@ -11,5 +11,10 @@
             <source>Open a File...</source>
             <translation>Ouvrir un dossier...</translation>
         </message>
+        <name>WinFolder</name>
+        <message>
+            <source>Obtain a bank file</source>
+            <translation>Obtenir un dossier bancaire</translation>
+        </message>
     </context>
 </TS>

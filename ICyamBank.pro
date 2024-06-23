@@ -10,12 +10,15 @@ CONFIG += c++17
 
 SOURCES += \
     src/main.cpp \
+    src/winfolder.cpp \
     src/winmain.cpp
 
 HEADERS += \
+    headers/winfolder.h \
     headers/winmain.h
 
 FORMS += \
+    ui/winfolder.ui \
     ui/winmain.ui
 
 TRANSLATIONS += \

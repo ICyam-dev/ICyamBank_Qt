@@ -2,4 +2,7 @@
     <qresource prefix="/icone/menu">
         <file>NewFolder-16.png</file>
     </qresource>
+    <qresource prefix="/images/window">
+        <file>NewFolder-512.png</file>
+    </qresource>
 </RCC>

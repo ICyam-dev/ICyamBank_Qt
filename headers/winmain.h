@@ -2,6 +2,7 @@
 #define WINMAIN_H
 
 #include <QMainWindow>
+#include "headers/winfolder.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -16,6 +17,9 @@ class WinMain : public QMainWindow
 public:
     WinMain(QWidget *parent = nullptr);
     ~WinMain();
+
+private slots:
+    void openWinFolder();
 
 private:
     Ui::WinMain *ui;
