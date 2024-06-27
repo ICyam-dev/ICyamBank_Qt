@@ -15,6 +15,9 @@ public:
     explicit WinFolder(QWidget *parent = nullptr);
     ~WinFolder();
 
+protected:
+    void closeEvent(QCloseEvent *event) override;
+
 private slots:
     void on_Btn_Ok_clicked();
 
